@@ -1,0 +1,8 @@
+import doctest
+
+def file_to_person_list(output_file) -> None:
+    """
+    """
+    handle_file = open(output_file,'r')
+    print(handle_file.read())
+
